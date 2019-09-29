@@ -1,4 +1,5 @@
 function saveData() {
+    
     const name = document.getElementById("name").value;
     const desc = document.getElementById("desc").value;
 
@@ -12,6 +13,8 @@ function saveData() {
         body : JSON.stringify(body),
         headers:{
             'Content-Type': 'application/json'
-        }
+        }   
     }) 
+    
 }
+
